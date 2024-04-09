@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        img {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .contact-form {
+            margin-top: 20px;
+        }
+        .contact-form input[type="text"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .contact-form input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <img src="foto.jpg" alt="Foto">
+        <h1>Juan Pérez</h1>
+        <p>Desarrollador de Software</p>
+    </header>
+    
+    <section id="informacion">
+        <h2>Información Básica</h2>
+        <ul>
+            <li><strong>Edad:</strong> 30 años</li>
+            <li><strong>Dirección:</strong> Calle 123, Ciudad, País</li>
+            <li><strong>Email:</strong> juan@example.com</li>
+            <li><strong>Teléfono:</strong> +1234567890</li>
+        </ul>
+    </section>
+    
+    <section id="estudios">
+        <h2>Estudios</h2>
+        <ul>
+            <li>Grado en Ingeniería Informática - Universidad X (2010-2014)</li>
+            <li>Máster en Desarrollo de Software - Universidad Y (2015-2017)</li>
+        </ul>
+    </section>
+    
+    <section id="empleos">
+        <h2>Empleos</h2>
+        <ul>
+            <li>Desarrollador Web - Empresa A (2017-2019)</li>
+            <li>Analista de Sistemas - Empresa B (2019-2021)</li>
+        </ul>
+    </section>
+    
+    <section id="proyectos">
+        <h2>Proyectos Realizados</h2>
+        <ul>
+            <li>Sistema de Gestión de Ventas - Empresa A</li>
+            <li>Plataforma de E-learning - Empresa B</li>
+        </ul>
+    </section>
+    
+    <section id="contacto" class="contact-form">
+        <h2>Contacto</h2>
+        <form action="#" method="post">
+            <input type="text" name="email" placeholder="Correo Electrónico">
+            <br>
+            <input type="text" name="telefono" placeholder="Número de Teléfono">
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</div>
+
+</body>
+</html>
